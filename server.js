@@ -7,6 +7,7 @@ const app = express();
 const jsonParser = bodyParser.json();
 // app.use(express.json());
 
+
 // create connection
 // mongodb + srv://Demo1:Demo@demo.nyi0ycm.mongodb.net/Demo
 mongoose.set('strictQuery', false);
